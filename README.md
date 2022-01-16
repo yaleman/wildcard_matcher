@@ -24,3 +24,7 @@ True
 
 Please feel free to [log an issue](issues/new) with examples of what you tried and didn't work. PRs are most welcome.
 
+# Changelog
+
+- 0.0.1 and 0.0.2 Initial release and getting packaging right.
+- 0.0.3 trying to add typing file.

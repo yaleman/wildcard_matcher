@@ -1,9 +1,13 @@
 [tool.poetry]
 name = "wildcard_matcher"
-version = "0.0.1"
+version = "0.0.2"
 description = "A simple wildcard string matcher"
 authors = ["James Hodgkinson <james@terminaloutcomes.com>"]
 license = "MIT"
+
+homepage = "https://github.com/yaleman/wildcard_matcher"
+repository = "https://github.com/yaleman/wildcard_matcher"
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.7"

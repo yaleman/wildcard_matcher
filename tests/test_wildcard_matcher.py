@@ -5,7 +5,7 @@ import string
 
 import pytest
 
-from github_linter import wildcard_matcher
+import wildcard_matcher
 
 def test_has_stars_should():
     """ tests a pattern with stars """

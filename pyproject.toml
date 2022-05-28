@@ -2,15 +2,13 @@
 name = "wildcard_matcher"
 version = "0.0.3"
 description = "A simple wildcard string matcher"
-authors = ["James Hodgkinson <james@terminaloutcomes.com>"]
+authors = [
+    "James Hodgkinson <james@terminaloutcomes.com>",
+]
 license = "MIT"
-
 homepage = "https://github.com/yaleman/wildcard_matcher"
 repository = "https://github.com/yaleman/wildcard_matcher"
 readme = "README.md"
-
-
-#include = ["wildcard_matcher/py.typed"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
@@ -21,5 +19,19 @@ pylint = "^2.12.2"
 mypy = "^0.960"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = [
+    "poetry-core>=1.0.0",
+]
 build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "wildcard_matcher"
+description = "A simple wildcard string matcher"
+license = "MIT"
+version = "0.0.3"
+readme = "README.md"
+homepage = "https://github.com/yaleman/wildcard_matcher"
+repository = "https://github.com/yaleman/wildcard_matcher"
+authors = [
+    { name = "James Hodgkinson", email = "james@terminaloutcomes.com" },
+]
